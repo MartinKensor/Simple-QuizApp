@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#ecf0f1"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q4"
+        android:text="4. What is the area of your school in ha?"/>
+
+    <RadioGroup
+        android:id="@+id/q40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <RadioButton
+            android:id="@+id/q41"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="98" />
+
+        <RadioButton
+            android:id="@+id/q42"
+            android:layout_width="182dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="215dp"
+            android:layout_marginRight="215dp"
+            android:layout_weight="1"
+            android:text="100" />
+
+        <RadioButton
+            android:id="@+id/q43"
+            android:layout_width="182dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="215dp"
+            android:layout_marginRight="215dp"
+            android:layout_weight="1"
+            android:text="244" />
+
+        <RadioButton
+            android:id="@+id/q44"
+            android:layout_width="182dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="215dp"
+            android:layout_marginRight="215dp"
+            android:layout_weight="1"
+            android:text="300" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/credit"
+        android:text="5. How many credit hours are you supposed to do?"/>
+
+
+
+    <RadioGroup
+        android:id="@+id/q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <RadioButton
+            android:id="@+id/q51"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="98" />
+
+        <RadioButton
+            android:id="@+id/q52"
+            android:layout_width="182dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="215dp"
+            android:layout_marginRight="215dp"
+            android:layout_weight="1"
+            android:text="100" />
+
+        <RadioButton
+            android:id="@+id/q53"
+            android:layout_width="182dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="215dp"
+            android:layout_marginRight="215dp"
+            android:layout_weight="1"
+            android:text="144" />
+
+        <RadioButton
+            android:id="@+id/q54"
+            android:layout_width="182dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="215dp"
+            android:layout_marginRight="215dp"
+            android:layout_weight="1"
+            android:text="150" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q"
+        android:text="6. Are you supposed to register every semester?"/>
+
+
+
+    <RadioGroup
+        android:id="@+id/students"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <RadioButton
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/q61"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="No" />
+        
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="0.2"
+            android:text="RESTART"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="0.2"
+            android:text="next"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</LinearLayout>
